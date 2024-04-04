@@ -24,7 +24,7 @@
 /* PINTAR LETRAS NO SEPARADOR <SPAN> */
 
 #logosep{
-    color: red;
+    color: white;
 }
 
 .navbar-toggler span{
@@ -42,7 +42,7 @@
 
 .nav-item .nav-link:hover{
     background: red;
-    color: black;
+    color: rgb(223, 223, 223);
 }
 
 
@@ -58,8 +58,9 @@
 }
 
 .home .conteudo{
-    text-align: center;
+    text-align: left;
     padding-top: 200px;
+    margin-left: 200px;
 }
 
 .home .conteudo h5{
@@ -83,4 +84,10 @@
     text-shadow: 0px 1px 1px black;
     margin-bottom: 30px;
     margin-top: 5px;
+}
+
+.header-bg {
+
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(245,0,0,1) 0%, rgba(29,108,17,1) 63%)!important;
+
 }
