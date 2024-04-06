@@ -177,3 +177,12 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(245,0,0,1) 0%, rgba(2
     padding: 1rem;
     font-size: medium;
   }
+
+  .backselecao {
+
+      background-image:('selecaoo.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+  }
+  

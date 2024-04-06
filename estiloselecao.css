@@ -1,0 +1,30 @@
+p {
+    font-style:normal;
+    color: white;
+    font: size 1px;;
+    font-size: 2em;
+    margin: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    font-style: normal;
+    line-height: 1.5;
+    text-align: justify;
+        
+}
+
+body{
+    background-image: url(img/selecaoo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    text-shadow: none;
+    background-image: ;
+}
+
+#titulo {  
+    font-family: 'PT Serif', serif;
+    margin-top: 20px;
+    text-align: center; 
+    color: red;
+}
