@@ -5,23 +5,15 @@
     <title>Bem vindo a Portugal</title>
 
         <link rel="stylesheet" href="estilo.css">
-        <script src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_DE_API"></script>
-
 </head>
 <body>
     
-    <!-- LINK BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+ 
 
-    
-    <!-- NAVBAR -->
-    <div class="carousel">
-      <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="cris.jpg" alt="Imagem 1">
         </div>
-        <div class="carousel-item">
-          <img src="imagem2.jpg" alt="Imagem 2">
         </div>
       </div>
     </div>
@@ -36,27 +28,21 @@
         <div class="collapse navbar-collapse" id="mynavbar">
           <ul class="navbar-nav me-auto">
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Sobre</a>
+              <a class="nav-link" href="sobre.html">Sobre</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Culinária</a>
+              <a class="nav-link" href="culinaria.html">Culinária</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html">Seleção</a>
+              <a class="nav-link" href="selecao.html">Seleção</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="index.html">CR7</a>
+              <a class="nav-link" href="CR7.html">CR7</a>
             </li>
           </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="text" placeholder="Search">
-            <button class="btn btn-primary" type="button">Search</button>
-          </form>
         </div>
       </div>
     </nav>
-
-    <!-- NAVBAR -->
 
     <div class="home">
       <div class="conteudo">
@@ -68,32 +54,9 @@
       </div>
 
     </div>
-    <!-- JAVASCRIPT -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
    
-
-    <!-- FONTES -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
-    
-
-    <!-- MAP -->
-    <script>
-      function initMap() {
-          var myLatLng = {lat: -23.5505, lng: -46.6333};
-          var map = new google.maps.Map(document.getElementById('map'), {
-              zoom: 12,
-              center: myLatLng 
-          });
-          var marker = new google.maps.Marker({
-              position: myLatLng,
-              map: map,
-              title: 'Portugal'
-          });
-      }
-  </script>
-<script async defer
-src="https://maps.googleapis.com/maps/api/js?key=SUA_CHAVE_DE_API&callback=initMap">
-</script>
 
 </body>
 </html>
