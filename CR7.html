@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CR7</title>
+    <link rel="stylesheet" href="estilocr7.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <h1>UM MONSTRO, UMA MÁQUINA, UMA BESTA ENJAULADA</h1><button onclick="playAudio()" style="position: fixed; top: 20px; right: 20px; z-index: 1000; background: none; border: none;">
+        <i class="fas fa-play-circle" style="font-size: 24px; color: black;"></i>
+      </button>
+      
+    <audio id="myAudio" autoplay loop>
+      <source src="audio/onebeast.mp3" type="audio/mp3">
+    </audio>
+    <script>
+        function playAudio() {
+          var audio = document.getElementById("myAudio");
+          if (audio.paused) {
+            audio.play();
+          } else {
+            audio.pause();
+          }
+        }
+        </script>
+</body>
+</html>
